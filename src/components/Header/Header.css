@@ -1,0 +1,18 @@
+.header {
+  background-color: #0f9db2;
+  padding: 30px;
+  color: #fff;
+}
+
+
+.header nav {
+  width: 300px;
+  margin-left: auto;
+}
+
+
+.header li a {
+  text-decoration: none;
+  color: #fff;
+  margin: 5px 10px;
+}
