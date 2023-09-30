@@ -3,10 +3,10 @@ import "./Form.css";
 import { tags } from "../../utils/tagsData";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { addData } from "../../app/Form/FormAction";
 import { formValidation } from "./validation";
 import { userdataForm } from "./formOptions";
 import { useNavigate } from "react-router-dom";
+import { addData } from "../../app/features/form/formSlice";
 
 const Form = () => {
   const [formData, setFormData] = useState(userdataForm);
