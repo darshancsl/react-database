@@ -23,7 +23,7 @@ const column = [
 ];
 
 const Dashboard = () => {
-  const { data } = useSelector((state) => state.addDataReducer);
+  const { data } = useSelector((state) => state.form);
 
   useEffect(() => {
     setLocalStorage("data", data);

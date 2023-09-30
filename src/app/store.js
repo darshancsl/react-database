@@ -1,6 +1,10 @@
-import { createStore } from 'redux';
-import { rootReducer } from "./Reducer/rootReducer";
+import { configureStore } from "@reduxjs/toolkit";
+import formReducer from './features/form/formSlice';
 
-const store = createStore(rootReducer, {});
+const store = configureStore({
+  reducer: {
+    form: formReducer
+  }
+});
 
 export default store;
